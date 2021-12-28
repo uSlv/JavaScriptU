@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Círculo</title>
+    <style>
+        body{
+            background-color: rgb(253, 224, 185);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var raio = prompt('Digite o raio da circuferência:')
+        function AreaCirculo(raio){
+
+            var area  = raio * raio
+
+            return area
+        }
+
+        var area = AreaCirculo(raio)
+        document.write('A área da circuferência é:' + area)
+    </script>
+</body>
+</html>
